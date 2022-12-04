@@ -3,7 +3,7 @@ import { fetchCountries } from './fetchCountries';
 import Notiflix from 'notiflix';
 var debounce = require('lodash.debounce');
 
-refs = {
+const refs = {
   inputEl: document.querySelector('#search-box'),
   countryListEl: document.querySelector('.country-list'),
   countryInfoEl: document.querySelector('.country-info'),
